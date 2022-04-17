@@ -9,6 +9,8 @@ on:
      - cron: '0/15 * * * *'
   watch:
     types: youth
+- 名称：设置 Node.js 环境
+  使用：actions/setup-node@v3.1.1
 
 jobs:
   build:
